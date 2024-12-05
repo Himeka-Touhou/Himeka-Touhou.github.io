@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Himeka&#39;s Website</title>
+  <title>Himeka’s Art</title>
   <icon>https://himeka-touhou.github.io/icon.png</icon>
   
   <link href="https://himeka-touhou.github.io/atom.xml" rel="self"/>

@@ -113,14 +113,14 @@
   font-family: var(--font-icon);
   content: "\f105";
 }
-.icon-github:before {
-  content: "\f09b";
-}
 .icon-twitter:before {
   content: "\e61b";
 }
-.icon-bilibili:before {
-  content: "\e3d9";
+.icon-vimeo:before {
+  content: "\f194";
+}
+.icon-keybase:before {
+  content: "\f4f5";
 }
 .icon-email:before {
   content: "\f0e0";

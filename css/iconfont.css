@@ -115,14 +115,14 @@
   font-family: "iconfont";
   content: "\e630";
 }
-.icon-github:before {
-  content: "\e619";
-}
 .icon-twitter:before {
   content: "\e62a";
 }
-.icon-bilibili:before {
-  content: "\e603";
+.icon-vimeo:before {
+  content: "\e629";
+}
+.icon-keybase:before {
+  content: "\e61e";
 }
 .icon-email:before {
   content: "\e63c";

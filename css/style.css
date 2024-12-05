@@ -1,12 +1,12 @@
 :root {
-  --red-0: #f00;
-  --red-1: #ff5252;
-  --red-2: #ff7c7c;
-  --red-3: #ffafaf;
-  --red-4: #ffd0d0;
-  --red-5: #ffe4e4;
-  --red-5-5: #ffecec;
-  --red-6: #fff3f3;
+  --red-0: #8ecdc5;
+  --red-1: #8ecdc5;
+  --red-2: #8ecdc5;
+  --red-3: #8ecdc5;
+  --red-4: #8ecdc5;
+  --red-5: #8ecdc5;
+  --red-5-5: #8ecdc5;
+  --red-6: #8ecdc5;
   --grey-9: #999;
   --grey-7: #777;
   --color-archive-year: #000;
@@ -24,7 +24,7 @@
   --color-meta-shadow: var(--red-6);
   --color-hover-shadow: rgba(150,150,150,0.1);
   --color-h2-after: var(--red-1);
-  --color-red-6-shadow: rgba(255,78,78,0.6);
+  --color-red-6-shadow: #8ecdc5;
   --color-red-3-shadow: rgba(255,78,78,0.3);
   --highlight-nav: #e6e6e6;
   --highlight-scrollbar: #d6d6d6;
@@ -353,14 +353,14 @@ body [data-aos='zoom-in'] {
   font-family: "iconfont";
   content: "\e630";
 }
-.icon-github:before {
-  content: "\e619";
-}
 .icon-twitter:before {
   content: "\e62a";
 }
-.icon-bilibili:before {
-  content: "\e603";
+.icon-vimeo:before {
+  content: "\e629";
+}
+.icon-keybase:before {
+  content: "\e61e";
 }
 .icon-email:before {
   content: "\e63c";
@@ -2328,7 +2328,7 @@ pre .javascript .function {
 .sidebar-author .sidebar-author-name {
   font-weight: bold;
   font-size: 20px;
-  color: #f77;
+  color: #8ecdc5;
   margin: 10px;
 }
 .sidebar-author .sidebar-description {
@@ -2400,18 +2400,14 @@ pre .javascript .function {
 .icon-email {
   color: #f77;
 }
-.icon-github {
-  color: #191717;
-  transition: 1s;
-}
-[data-theme="dark"] .icon-github {
-  color: #bc88ff;
-}
 .icon-twitter {
   color: #191717;
 }
-.icon-bilibili {
-  color: #00a1d6;
+.icon-vimeo {
+  color: #1ab7ea;
+}
+.icon-keybase {
+  color: #33a0ff;
 }
 .sidebar-menu-icon,
 .sidebar-menu-link {
